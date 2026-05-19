@@ -316,7 +316,7 @@ function broadcastPCList() {
 // ============================================
 
 httpServer.listen(PORT, () => {
-  console.log(`🚀 Servidor activo en puerto ${PORT}`);
+  console.log(`🚀 Servidor activo en puerto X ${PORT}`);
   console.log(`🌐 Modo: ${process.env.NODE_ENV || 'development'}`);
   console.log(`📡 Local: http://localhost:${PORT}`);
   console.log(`💻 Windows clients: ${windowsClients.size}`);
